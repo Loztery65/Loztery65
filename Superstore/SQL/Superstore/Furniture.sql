@@ -1,0 +1,17 @@
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Furniture', 'Chairs', 2356, 1423832.89);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Technology', 'Phones', 3289, 1387681.21);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Storage', 3158, 1038755.99);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Furniture', 'Tables', 1241, 904949.19);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Technology', 'Accessories', 2976, 828444.83);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Binders', 5974, 792720.83);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Technology', 'Machines', 440, 690933.72);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Technology', 'Copiers', 234, 584690.23);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Appliances', 1729, 512286.60);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Furniture', 'Bookcases', 868, 486762.84);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Furniture', 'Furnishings', 3563, 413819.62);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Paper', 5178, 363438.06);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Supplies', 647, 188157.62);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Art', 3000, 126781.11);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Envelopes', 906, 68311.89);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Labels', 1400, 67071.49);
+INSERT INTO `orders_dc_` (`category`, `sub_category`, `Total_qty`, `Total_price`) VALUES ('Office Supplies', 'Fasteners', 914, 15545.79);
