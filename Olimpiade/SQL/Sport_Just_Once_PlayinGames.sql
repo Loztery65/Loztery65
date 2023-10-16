@@ -1,0 +1,10 @@
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1936 Summer', 'Aeronautics', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1900 Summer', 'Basque Pelota', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1900 Summer', 'Cricket', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1900 Summer', 'Croquet', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1908 Summer', 'Jeu De Paume', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1924 Winter', 'Military Ski Patrol', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1908 Summer', 'Motorboating', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1908 Summer', 'Racquets', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('1904 Summer', 'Roque', 1);
+INSERT INTO `athlete_events` (`games`, `sport`, `Tot_games`) VALUES ('2016 Summer', 'Rugby Sevens', 1);

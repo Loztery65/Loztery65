@@ -1,0 +1,12 @@
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '1988 Summer', 'Archery', 3);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '1992 Summer', 'Badminton', 6);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '1996 Summer', 'Badminton', 6);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2000 Summer', 'Weightlifting', 3);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2000 Summer', 'Badminton', 5);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2004 Summer', 'Weightlifting', 1);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2004 Summer', 'Badminton', 4);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2008 Summer', 'Weightlifting', 2);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2008 Summer', 'Badminton', 5);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2012 Summer', 'Weightlifting', 2);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2016 Summer', 'Badminton', 2);
+INSERT INTO `athlete_events` (`region`, `games`, `sport`, `tot_medals`) VALUES ('Indonesia', '2016 Summer', 'Weightlifting', 2);

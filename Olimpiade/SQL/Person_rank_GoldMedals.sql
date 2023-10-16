@@ -1,0 +1,17 @@
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Michael Fred Phelps, II', 'United States', 23, 1);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Raymond Clarence "Ray" Ewry', 'United States', 10, 2);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Mark Andrew Spitz', 'United States', 9, 3);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Frederick Carlton "Carl" Lewis', 'United States', 9, 3);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Larysa Semenivna Latynina (Diriy-)', 'Soviet Union', 9, 3);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Paavo Johannes Nurmi', 'Finland', 9, 3);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Usain St. Leo Bolt', 'Jamaica', 8, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Sawao Kato', 'Japan', 8, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Ole Einar Bjrndalen', 'Norway', 8, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Matthew Nicholas "Matt" Biondi', 'United States', 8, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Jennifer Elisabeth "Jenny" Thompson (-Cumpelik)', 'United States', 8, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Donald Arthur "Don" Schollander', 'United States', 7, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Nikolay Yefimovich Andrianov', 'Soviet Union', 7, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Borys Anfiyanovych Shakhlin', 'Soviet Union', 7, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Aladr Gerevich (-Gerei)', 'Hungary', 7, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Viktor Ivanovych Chukarin', 'Soviet Union', 7, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Vra slavsk (-Odloilov)', 'Czechoslovakia', 7, 5);

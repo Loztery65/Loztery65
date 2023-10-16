@@ -1,0 +1,14 @@
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Michael Fred Phelps, II', 'United States', 28, 1);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Larysa Semenivna Latynina (Diriy-)', 'Soviet Union', 18, 2);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Nikolay Yefimovich Andrianov', 'Soviet Union', 15, 3);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Borys Anfiyanovych Shakhlin', 'Soviet Union', 13, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Edoardo Mangiarotti', 'Italy', 13, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Ole Einar Bjrndalen', 'Norway', 13, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Takashi Ono', 'Japan', 13, 4);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Aleksey Yuryevich Nemov', 'Russia', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Dara Grace Torres (-Hoffman, -Minas)', 'United States', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Jennifer Elisabeth "Jenny" Thompson (-Cumpelik)', 'United States', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Natalie Anne Coughlin (-Hall)', 'United States', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Paavo Johannes Nurmi', 'Finland', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Ryan Steven Lochte', 'United States', 12, 5);
+INSERT INTO `y` (`NAME`, `team`, `tot_medal`, `ranking`) VALUES ('Sawao Kato', 'Japan', 12, 5);
