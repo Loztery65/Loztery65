@@ -1,0 +1,75 @@
+SELECT gender, COUNT(*) AS total_employees
+FROM hr
+WHERE age >= 18
+GROUP BY gender;
+
+
+SELECT race, COUNT(*) AS total_employees
+FROM hr
+GROUP BY race
+ORDER BY total_employees DESC;
+
+
+SELECT case when age>= 18 AND age <= 24 then '18-24'
+when age>= 25 AND age <= 34 then '25-34'
+when age>= 35 AND age <= 44 then '35-44'
+when age>= 45 AND age <= 54 then '45-54'
+when age>= 55 AND age <= 64 then '55-64'
+ELSE  '65+' END AS age_group,
+COUNT(*) AS total
+FROM hr
+GROUP BY age_group;
+
+
+SELECT case when age>= 18 AND age <= 24 then '18-24'
+when age>= 25 AND age <= 34 then '25-34'
+when age>= 35 AND age <= 44 then '35-44'
+when age>= 45 AND age <= 54 then '45-54'
+when age>= 55 AND age <= 64 then '55-64'
+ELSE  '65+' END AS age_group, gender,
+COUNT(*) AS total
+FROM hr
+GROUP BY age_group, gender;
+
+
+SELECT location, COUNT(*) AS total
+FROM hr
+group BY location;
+
+
+SELECT CONCAT(first_name,' ', last_name) AS full_name, round(DATEDIFF(CURDATE(), hire_date)/365, 0) AS year_lenght_employment
+FROM hr
+GROUP BY full_name;
+
+
+WITH z AS
+(SELECT CONCAT(first_name,' ', last_name) AS full_name, location, 
+round(DATEDIFF(CURDATE(), hire_date)/365, 0) AS year_lenght_employment
+FROM hr
+GROUP BY full_name)
+SELECT location, round(AVG(year_lenght_employment),0) AS avg_employ_year
+FROM z
+GROUP BY location;
+
+
+
+SELECT h.departement, h.gender, COUNT(h.gender) AS total
+FROM hr AS h
+GROUP BY h.departement, gender;
+
+
+SELECT h.job_title, COUNT(*) AS total
+FROM hr AS h
+GROUP BY h.job_title;
+
+
+WITH
+z AS (SELECT h.departement, COUNT(*) AS total_count,
+SUM(case when termdate <> ' ' and termdate <= CURDATE() then 1 ELSE 0 END) AS termdate_count
+FROM hr AS h GROUP BY h.departement)
+SELECT departement, total_count, termdate_count, termdate_count/total_count AS termrate
+FROM z ORDER BY termrate DESC;
+
+
+SELECT city, COUNT(*) AS total_employees
+FROM hr GROUP BY city ORDER BY total_employees DESC;
