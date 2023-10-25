@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Loztery65
+- 👋 Hi, I’m @Loztery65 (Rizal)
 - 👀 I’m interested in Data Analyst
-- 🌱 I’m currently learning Excel, MySQL, Python and Tableau
-- 💞️ I’m looking to collaborate on 
+- 🌱 I’m currently learning Excel, MySQL, Python, Power Query, Power BI and Tableau
+- 💞️ I’m looking to collaborate on company
 - 📫 How to reach me you can contact me on linkedin https://www.linkedin.com/in/rizalapriyansah/
 
 <!---
