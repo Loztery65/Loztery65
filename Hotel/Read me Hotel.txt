@@ -1,0 +1,41 @@
+SELECT h.id, h.reservation_date, h.arrival_status_date, h.stays_in_weekend_nights, h.stays_in_week_nights,
+h.adults, h.children, h.babies, h.meal, n.name_country,
+h.market_segment, h.reserved_room_type, h.assigned_room_type, h.deposit_type, 
+h.code_agent, h.code_company, h.customer_type, 
+h.required_car_parking_spaces, h.total_of_special_requests, h.reservation_status
+FROM hotel AS h INNER JOIN negara AS n USING (country) 
+INNER JOIN meal AS m USING(meal) 
+INNER JOIN agent AS a USING(code_agent)
+INNER JOIN company AS c USING(code_company) 
+INNER JOIN room AS r USING(assigned_room_type)
+INNER JOIN segment AS s USING(market_segment);
+
+
+
+**TOTAL PRICE**
+
+SELECT h.id, h.reservation_date, h.arrival_status_date,
+h.stays_in_weekend_nights, h.stays_in_week_nights, h.assigned_room_type, r.cost, s.discount,
+ROUND(((r.cost* h.stays_in_week_nights)+(r.cost* h.stays_in_weekend_nights))*(1-s.discount),0) AS total_price
+FROM hotel AS h INNER JOIN room AS r USING(assigned_room_type)
+INNER JOIN segment_fix AS s USING(market_segment);
+
+**TOTAL PRICE BY ROOM**
+
+SELECT r.assigned_room_type,
+SUM(h.stays_in_weekend_nights) AS weekend_nights, SUM(h.stays_in_week_nights) AS week_nights, r.cost,
+SUM(round(((r.cost* h.stays_in_week_nights)+(r.cost* h.stays_in_weekend_nights))*(1-s.discount),0)) AS total_price
+FROM hotel AS h INNER JOIN room AS r USING(assigned_room_type)
+INNER JOIN segment_fix AS s USING(market_segment)
+GROUP BY r.assigned_room_type
+ORDER BY total_price DESC;
+
+**
+
+
+
+
+
+
+
+
